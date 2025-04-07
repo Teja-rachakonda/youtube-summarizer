@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "youtube-summarizer"
+version = "0.1.0"
+description = ""
+authors = ["Teja <teja.rachakonda123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+
+python = ">=3.12,<3.14"
+streamlit = "^1.44.1"
+python-dotenv = "^1.1.0"
+langchain = "0.3.23"
+pydantic = "2.7.4"
+youtube-transcript-api = "^1.0.3"
+langchain-groq = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
